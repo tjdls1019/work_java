@@ -6,8 +6,7 @@ public class Ch02Ex02_07 {
 	public static void main(String[] args) {
 		//1. Scanner 객체 생성(System.in은 키보드)
 		Scanner scanner = new Scanner(System.in);
-		
-		
+				
 		//1-1. 무엇을 입력받을지 안내하는 문구 출력하기
 		System.out.print("height = ");
 		

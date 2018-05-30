@@ -14,7 +14,7 @@ public class Ch02Ex02_08 {
 		String strNum2 = scanner.nextLine();
 		String strChar = scanner.nextLine();
 				
-		//3. 입력받은 실수 2개를 실수(double)형과 
+		//3. 입력받은 실수 2개를 실수(double)형으로으로 변경 
 		//단, 문자는 굳이 문자로 변경할 필요가 없다.
 		double num1 = Double.parseDouble(strNum1);
 		double num2 = Double.parseDouble(strNum2);
