@@ -1,6 +1,6 @@
 package ch03;
 
-public class OpertorEx27 {
+public class OperatorEx27 {
 	public static void main(String[] args) {
 		boolean b = true;
 		char ch = 'C';
