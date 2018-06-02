@@ -12,6 +12,9 @@ public class Ch03Ex01_06 {
 	    int num1 = Integer.parseInt(input1);
 	    int num2 = Integer.parseInt(input2);
 	    
+	    //boolean res1 = num1 != 0;
+	    //boolean res2 = num2 != 0;
+	
 	    System.out.printf("%b ", num1 != 0 && num2 != 0);
 	    System.out.printf("%b", num1 != 0 || num2 != 0 );
 	}
