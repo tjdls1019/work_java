@@ -2,7 +2,7 @@ package ch04;
 
 import java.util.Scanner;
 
-public class FlowEx6 {
+public class FlowEx06 {
 	public static void main(String[] args) {
 		int month = 0;
 		System.out.printf("현재 월을 입력하세요.> ");

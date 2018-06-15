@@ -2,7 +2,7 @@ package ch04;
 
 import java.util.Scanner;
 
-public class FlowEx7 {
+public class FlowEx07 {
 	public static void main(String[] args) {
 		int user, com;
 		
