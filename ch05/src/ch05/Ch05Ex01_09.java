@@ -11,7 +11,7 @@ public class Ch05Ex01_09 {
 		// 2. 편의상 numbers에 저장된 문자열들을 정수형으로 바꾼 값을 저장할 배열 생성
 		int[] sort = new int[numbers.length];
 
-		// 3. numbers 배열에 저장된 문자열들ㅇ르 정수형으로 변환 후 sort 배열에 집어넣기
+		// 3. numbers 배열에 저장된 문자열들을 정수형으로 변환 후 sort 배열에 집어넣기
 		for (int i = 0; i < numbers.length; i++) {
 			sort[i] = Integer.parseInt(numbers[i]);
 		}

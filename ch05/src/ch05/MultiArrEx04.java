@@ -10,6 +10,7 @@ public class MultiArrEx04 {
 				{"integer", "정수"}, // words[2][0], words[2][1]
 		};
 
+		int count= 0 ;
 		Scanner scanner = new Scanner(System.in);
 
 		for (int i = 0; i < words.length; i++) {
@@ -19,10 +20,11 @@ public class MultiArrEx04 {
 
 			if (tmp.equals(words[i][1])) {
 				System.out.printf("정답입니다.%n%n");
+				count++;
 			}
 			else {
 				System.out.printf("틀렸습니다. 정답은 %s입니다.%n%n", words[i][1]);
 			}
-		}
+		}System.out.printf("전체 3문제 중 %d문제 맞추셨습니다.", count);
 	}
 }

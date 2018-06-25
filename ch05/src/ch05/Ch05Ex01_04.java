@@ -12,7 +12,6 @@ public class Ch05Ex01_04 {
 			Scanner scanner = new Scanner(System.in);
 			String num = scanner.nextLine();
 
-
 			// 3. 입력받은 정수를 배열에 저장
 			numbers[i] = Integer.parseInt(num);
 

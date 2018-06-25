@@ -12,17 +12,17 @@ public class Ch05Ex01_07 {
 				for (int i = 0; i < numbers.length; i++) {
 					int num = Integer.parseInt(numbers[i]);
 					
-					// 만약 1000 이상의 정수가 발견되면
+					// 만약 10000 이상의 정수가 발견되면
 					if (!(1 <= num && num < 10000)) {
-						// main 메소드를 return 시켜 프로글매 종료
+						// main 메소드를 return 시켜 프로그램 종료
 						return;
 					}
 				}
 		// 2. 100 미만의 수 중 가장 큰 수를 저장하는 변수 max 선언
-		int max = 0;
+		int max = 100;
 		
 		// 3. 100 이상의 수 중 가장 작은 수를 저장한느 변수 min 선언
-		int min = 0;
+		int min = 100;
 		
 		// 2.3번 초기값을 100으로 하는 이유
 		// 문자에서 해당하는 수가 없을 때에는 100을 출력하기 때문
@@ -32,7 +32,7 @@ public class Ch05Ex01_07 {
 			int num = Integer.parseInt(numbers[i]);
 			
 			if (num < 100) {
-				if (max == 0) {
+				if (max == 100) {
 					max = num;
 				}
 				else {
@@ -40,7 +40,7 @@ public class Ch05Ex01_07 {
 			}
 			}
 			else {
-				if (min == 0) {
+				if (min == 100) {
 					min = num;
 				}
 				min = min < num ? min : num;
@@ -50,4 +50,3 @@ public class Ch05Ex01_07 {
 	System.out.println(max + " " + min);
 	}
 }
-
